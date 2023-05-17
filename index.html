@@ -1,37 +1,341 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tabelas</title>
-</head>
-<body>
-    <h1>Tabelas</h1>
-    <table>
-        <tr>
-            <th>Roupa</th>
-            <th>Cor</th>
-            <th>Tamanho</th>
-            <th>Preço</th>
-            <th>Disponibilidade</th>
-        </tr>
-        <tr>
-            <td>Camiseta</td>
-            <td>Vermelha</td>
-            <td>M</td>
-            <td>R$ 70,00</td>
-            <td>Em estoque</td>
-        </tr>
-        <tr>
-            <td>Bermuda</td>
-            <td>Vermelha</td>
-            <td>M</td>
-            <td>R$ 160,00</td>
-            <td>Esgotado</td>
-        </tr>
-    </table>
+    <!--<meta name="description" content="Welcome to Pokemon Page created by Zenel, Mikael, Tally, and Kaike. Thanks for watching my page">-->
+    
+    <meta property="title" content="Basics Pokemons">
+    <meta property="description" content="Welcome to Pokemon Page">
 
     
+    <link rel="stylesheet" href="src/css/reset.css">
+    <link rel="stylesheet" href="src/css/styles.css">
+    <link rel="stylesheet" href="src/css/scrollbar.css">
+    <link rel="shortcut icon" href="src/images/pokeball.png" type="image/x-icon">
+
+    <title>Basics Pokemons</title>
+</head>
+
+<body>
+    <header>
+        <div class="links">
+            <a href="#" class="logoslogos">
+                <img src="./src/images/pokeball.png" class="pokeball">
+                <img src="src/images/pokemon-logo.png" class="logo-name">
+            </a>
+        </div>
+        <div class="buttons">
+            <button class="button-color">
+                <img src="src/images/sun.gif" id="sun">
+            </button>
+            <button class="button-color">
+                <img src="src/images/moon.gif" id="moon">
+            </button>
+        </div>
+    </header>
+    <main>
+        <ul class="cards">
+            <li class="pokemon">
+                <div class="card2">
+                    <div class="informacoes">
+                        <span class="nome-pokemon">Bulbasaur</span>
+                        <span class="number-pokemon"> #001</span>
+                    </div>
+                    <img class="png" src="./src/images/bulbasaur.png">
+                    <ul class="tipos">
+                        <li class="veneno">Veneno</li>
+                        <li class="grama"> Grama</li>
+                    </ul>
+                    <p class="descricao">
+                        Bulbasaur has a reptilian appearance and is characterized by a large plant
+                        bulbon its back, which grows into a large flower as it evolves. This bulb absorbs sunlight and
+                        provides Bulbasaur with energy.</p>
+                </div>
+            </li>
+            <li class="pokemon">
+                <div class="card2">
+                    <div class="informacoes">
+                        <span class="nome-pokemon">Ivysaur </span>
+                        <span class="number-pokemon"> #002</span>
+                    </div>
+                    <img class="png" src="./src/images/ivysaur.png">
+
+                    <ul class="tipos">
+                        <li class="veneno">Veneno</li>
+                        <li class="grama"> Grama</li>
+                    </ul>
+                    <p class="descricao">
+                        As Ivysaur evolves, it becomes larger and gains more physical strength and
+                        capabilities. Its move pool expands, allowing it to learn a variety of grass and poison-type
+                        attacks, as well as some other moves through TMs (Technical Machines) and HMs (Hidden Machines).
+                        Ivysaur's abilities include "Overgrow," which boosts the power of its grass-type moves when its
+                        HP is low, just like Bulbasaur.</p>
+                </div>
+            </li>
+            <li class="pokemon">
+                <div class="card2">
+                    <div class="informacoes">
+                        <span class="nome-pokemon">Venusaur </span>
+                        <span class="number-pokemon"> #003</span>
+                    </div>
+                    <img class="png" src="./src/images/venusaur.png">
+
+                    <ul class="tipos">
+                        <li class="veneno">Veneno</li>
+                        <li class="grama"> Grama</li>
+                    </ul>
+                    <p class="descricao">
+                        Venusaur has a bulky and dinosaur-like appearance. It has a large flower on its
+                        back, which blooms into a larger and more colorful flower as it evolves. The flower on
+                        Venusaur's back releases a pleasant aroma when it is in full bloom.
+                    </p>
+                </div>
+            </li>
+            <li class="pokemon">
+                <div class="card2">
+                    <div class="informacoes">
+                        <span class="nome-pokemon">Charmander </span>
+                        <span class="number-pokemon"> #004</span>
+                    </div>
+                    <img class="png" src="./src/images/charmander.png">
+                    <ul class="tipos">
+                        <li class="fire">Fire</li>
+                        <li class="beast">Beast</li>
+                    </ul>
+                    <p class="descricao">
+                        Charmander is a popular Pokémon from the Pokémon franchise. It is a Fire-type
+                        Pokémon and is known as the "Lizard Pokémon." Charmander is one of the original starter Pokémon
+                        that players can choose from in the Pokémon games, along with Bulbasaur and Squirtle.</p>
+                </div>
+            </li>
+            <li class="pokemon">
+                <div class="card2">
+                    <div class="informacoes">
+                        <span class="nome-pokemon">Charmeleon </span>
+                        <span class="number-pokemon"> #005</span>
+                    </div>
+                    <img class="png" src="./src/images/charmeleon.png">
+
+                    <ul class="tipos">
+                        <li class="fire">Fire</li>
+                        <li class="beast">Beast</li>
+                    </ul>
+                    <p class="descricao">
+                        Charmeleon is a Fire-type Pokémon and the evolved form of Charmander. It is
+                        known as the Flame Pokémon.</p>
+                </div>
+            </li>
+            <li class="pokemon">
+                <div class="card2">
+                    <div class="informacoes">
+                        <span class="nome-pokemon">Charizard </span>
+                        <span class="number-pokemon">#006</span>
+                    </div>
+                    <img class="png" src="./src/images/charizard.png">
+
+                    <ul class="tipos">
+                        <li class="fire">Fire</li>
+                        <li class="air">Air</li>
+                    </ul>
+                    <p class="descricao">
+                        Charizard is a Fire/Flying-type Pokémon and the final evolution of theCharmander evolutionary
+                        line.
+                    </p>
+                </div>
+            </li>
+            <li class="pokemon">
+                <div class="card2">
+                    <div class="informacoes">
+                        <span class="nome-pokemon">Squirtle </span>
+                        <span class="number-pokemon">#007</span>
+                    </div>
+                    <img class="png" src="./src/images/squirtle.png">
+
+                    <ul class="tipos">
+                        <li class="water">Water</li>
+                        <li class="earth">Earth</li>
+                    </ul>
+                    <p class="descricao">
+                        Squirtle is a Water-type Pokémon and one of the original starter Pokémon introduced in the
+                        Pokémon franchise. It is known as the Tiny Turtle Pokémon.
+                    </p>
+                </div>
+            </li>
+            <li class="pokemon">
+                <div class="card2">
+                    <div class="informacoes">
+                        <span class="nome-pokemon">Wartortle </span>
+                        <span class="number-pokemon">#008</span>
+                    </div>
+                    <img class="png" src="./src/images/wartortle.png">
+
+                    <ul class="tipos">
+                        <li class="water">Water</li>
+                        <li class="earth">Earth</li>
+                    </ul>
+                    <p class="descricao">
+                        Wartortle is a Water-type Pokémon that evolves from Squirtle and evolves into Blastoise. Here
+                        are some key details about Wartortle:
+                        Pokémon Species: Wartortle is a medium-sized, blue Pokémon that resembles a turtle. It has a
+                        brown shell with a pale yellow underbelly and furry ears.
+                    </p>
+                </div>
+            </li>
+            <li class="pokemon">
+                <div class="card2">
+                    <div class="informacoes">
+                        <span class="nome-pokemon">Blastoise</span>
+                        <span class="number-pokemon">#009</span>
+                    </div>
+                    <img class="png" src="./src/images/blastoise.png">
+
+                    <ul class="tipos">
+                        <li class="water">Water</li>
+                        <li class="earth">Earth</li>
+                    </ul>
+                    <p class="descricao">
+                        Blastoise is a Water-type Pokémon and the final evolution of the Squirtle evolutionary line.
+                        Here are some key details about Blastoise:
+                        Pokémon Species: Blastoise is a large, bipedal Pokémon that resembles a turtle. It has a dark
+                        blue body, a large and powerful shell on its back, and two water cannons that extend from its
+                        shell.
+                    </p>
+                </div>
+            </li>
+            <li class="pokemon">
+                <div class="card2">
+                    <div class="informacoes">
+                        <span class="nome-pokemon">Caterpie</span>
+                        <span class="number-pokemon">#010</span>
+                    </div>
+                    <img class="png" src="./src/images/caterpie.png">
+
+                    <ul class="tipos">
+                        <li class="grama">Grama</li>
+                        <li class="insect">Insect</li>
+                    </ul>
+                    <p class="descricao">
+                        Caterpie is a Bug-type Pokémon known as the Worm Pokémon. Here are some key details about
+                        Caterpie:
+                        Pokémon Species: Caterpie is a small, worm-like Pokémon with a green body and a segmented,
+                        cylindrical shape. It has a yellow underside and large, round eyes.
+                    </p>
+                </div>
+            </li>
+            <li class="pokemon">
+                <div class="card2">
+                    <div class="informacoes">
+                        <span class="nome-pokemon">Metapod</span>
+                        <span class="number-pokemon">#011</span>
+                    </div>
+                    <img class="png" src="./src/images/metapod.png">
+
+                    <ul class="tipos">
+                        <li class="grama">Grama</li>
+                        <li class="insect">Insect</li>
+                    </ul>
+                    <p class="descricao">
+                        Metapod is a Bug-type Pokémon known as the Cocoon Pokémon. It is the evolved form of Caterpie
+                        and the pre-evolved form of Butterfree. Here are some key details about Metapod:
+                        Pokémon Species: Metapod is a chrysalis-like Pokémon with a green, cylindrical body. It has a
+                        hard outer shell that protects its soft inner body during its evolution process.
+                    </p>
+                </div>
+            </li>
+            <li class="pokemon">
+                <div class="card2">
+                    <div class="informacoes">
+                        <span class="nome-pokemon">Butterfree</span>
+                        <span class="number-pokemon">#012</span>
+                    </div>
+                    <img class="png" src="./src/images/butterfree.png">
+
+                    <ul class="tipos">
+                        <li class="insect">Insect</li>
+                        <li class="air">Air</li>
+                    </ul>
+                    <p class="descricao">
+                        Butterfree is a Bug/Flying-type Pokémon known as the Butterfly Pokémon. Here
+                        are some key details about Butterfree:
+
+                        Pokémon Species: Butterfree is a large, butterfly-like Pokémon with predominantly purple wings.
+                        It has large compound eyes, a red nose, and a furry body. The shape and colors of its wings can
+                        vary.
+                    </p>
+                </div>
+            </li>
+            <li class="pokemon">
+                <div class="card2">
+                    <div class="informacoes">
+                        <span class="nome-pokemon">Weedle</span>
+                        <span class="number-pokemon">#013</span>
+                    </div>
+                    <img class="png" src="./src/images/weedle.png">
+
+                    <ul class="tipos">
+                        <li class="grama">Grama</li>
+                        <li class="insect">Insect</li>
+                    </ul>
+                    <p class="descricao">
+                        Weedle is a Bug/Poison-type Pokémon known as the Hairy Bug Pokémon. Here are some key details
+                        about Weedle:
+                        Pokémon Species: Weedle is a small, caterpillar-like Pokémon with a yellow body covered in
+                        brown, segmented spikes. It has a pink, conical stinger on its head.
+                    </p>
+                </div>
+            </li>
+            <li class="pokemon">
+                <div class="card2">
+                    <div class="informacoes">
+                        <span class="nome-pokemon">Kakuna</span>
+                        <span class="number-pokemon">#014</span>
+                    </div>
+                    <img class="png" src="./src/images/kakuna.png">
+
+                    <ul class="tipos">
+                        <li class="grama">Grama</li>
+                        <li class="insect">Insect</li>
+                    </ul>
+                    <p class="descricao">
+                        Kakuna is a Bug/Poison-type Pokémon known as the Cocoon Pokémon. It is the evolved form of
+                        Weedle and the pre-evolved form of Beedrill. Here are some key details about Kakuna:
+                        Pokémon Species: Kakuna is a yellow, chrysalis-like Pokémon. It has a hard shell covering its
+                        entire body with only its eyes visible through a slit. Its appearance signifies that it is in
+                        the process of evolving.
+                    </p>
+                </div>
+            </li>
+            <li class="pokemon">
+                <div class="card2">
+                    <div class="informacoes">
+                        <span class="nome-pokemon">Beedrill</span>
+                        <span class="number-pokemon">#015</span>
+                    </div>
+                    <img class="png" src="./src/images/beedrill.png">
+
+                    <ul class="tipos">
+                        <li class="insect">Insect</li>
+                        <li class="air">Air</li>
+                    </ul>
+                    <p class="descricao">
+                        Beedrill is a Bug/Poison-type Pokémon known as the Poison Bee Pokémon. Here are some key details about Beedrill:
+                        Pokémon Species: Beedrill is a large, wasp-like Pokémon with predominantly yellow and black coloring. It has a slender body, two pairs of wings, and large, needle-like stingers on its forearms.
+                    </p>
+                </div>
+            </li>
+        </ul>
+        <footer>
+            <ul>
+                <li class="icons"><a href="#"><img class="img" src="src/images/html5.svg" alt=""></a></li>
+                <li class="icons"><a href="#"><img src="src/images/css3.svg" alt=""></a></li>
+                <li class="icons"><a href="#"><img src="src/images/javascript.svg" alt=""></a></li>
+            </ul>
+        </footer>
+    </main>
+    <script src="src/js/index.js"></script>
 </body>
+
 </html>

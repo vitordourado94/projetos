@@ -1,0 +1,18 @@
+/* custom scroll bar */
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+::-webkit-scrollbar-track {
+    background: rgba(52, 51, 51, 0.7);
+    border-radius: 50px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: rgb(127, 121, 121, 0.7);
+    border-radius: 50px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: rgb(127, 121, 121, 0.7);
+}
